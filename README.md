@@ -9,6 +9,7 @@ Figma插件中心是一个收集和展示各种Figma、AE、Cursor等设计工�
 - 支持视频预览功能（鼠标悬停时播放）
 - 支持列表和网格两种视图模式
 - 响应式布局，适配各种设备尺寸
+- 已部署到Vercel平台
 
 ## 如何添加视频预览
 
@@ -59,18 +60,3 @@ npm run dev
 ```
 
 访问 http://localhost:3000 查看效果.
-
-# 在项目目录中初始化Git
-git init
-
-# 添加所有文件
-git add .
-
-# 提交更改
-git commit -m "初始提交"
-
-# 添加远程仓库（替换YOUR_USERNAME为您的GitHub用户名）
-git remote add origin https://github.com/Nefish/figma-plugin-hub
-
-# 推送到GitHub
-git push -u origin master
