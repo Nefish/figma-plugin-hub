@@ -16,7 +16,10 @@ export function CategoryLayout({ children, title, description }: CategoryLayoutP
 
   return (
     <div className="min-h-screen flex-1">
-      <CategoryFilter onCategoryChange={() => {}} />
+      <CategoryFilter 
+        onPlatformChange={() => {}} 
+        onCategoryChange={() => {}}
+      />
       
       <main className="flex-1 bg-[#121212]">
         <div className="container mx-auto px-4 py-8">
