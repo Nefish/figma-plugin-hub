@@ -70,7 +70,7 @@ git add .
 git commit -m "初始提交"
 
 # 添加远程仓库（替换YOUR_USERNAME为您的GitHub用户名）
-git remote add origin https://github.com/Nefish/figma-plugin-hub.git
+git remote add origin https://github.com/Nefish/figma-plugin-hub
 
 # 推送到GitHub
 git push -u origin master
