@@ -17,8 +17,13 @@ export function CategoryLayout({ children, title, description }: CategoryLayoutP
   return (
     <div className="min-h-screen flex-1">
       <CategoryFilter 
-        onPlatformChange={() => {}} 
-        onCategoryChange={() => {}}
+        onPlatformChange={() => {
+          // 平台变化时的空处理函数
+          // 由于这是布局组件，我们不需要实际处理平台变化
+        }} 
+        onCategoryChange={() => {
+          // 分类变化时的空处理函数
+        }}
       />
       
       <main className="flex-1 bg-[#121212]">
